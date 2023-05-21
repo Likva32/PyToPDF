@@ -14,6 +14,8 @@ def convert_py_to_pdf(folder_path):
     for root, dirs, files in os.walk(folder_path):
         if 'venv' in dirs:
             dirs.remove('venv')
+        if '.venv' in dirs:
+            dirs.remove('.venv')
         py_files += glob.glob(os.path.join(root, '*.py'))
     if not py_files:
         print(".py files not found")
