@@ -1,7 +1,13 @@
 # PyToPDF
-## Convert .py files to pdf in a given folder and merge them into one pdf file
+### Convert .py files to pdf in a given folder and merge them into one pdf file
 
+## requirements:
+### install wkhtmltopdf:
+https://wkhtmltopdf.org/downloads.html
+
+## How to Activate:
 ### in cmd: python PyConvertorToPDF.py folder
+
 
 #### Example:
 ![PyconvertorUserManual](https://github.com/Likva32/PyToPDF/assets/114340841/a678f02b-9e72-4310-8857-d65cbf0fdda1)
